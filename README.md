@@ -3,6 +3,14 @@ Scripts to snyc all message mattermost with slack.  This script is intended for 
 
 
 
+## Caution!!
+
+* This scripts for small slack spaces. 
+  * Small slack space means users create less than a hundred posts per day.
+* If your slack space user create more than a hundered post per a day, please use slack's paid plan.
+
+
+
 ## Setup
 
 ### Install
@@ -50,3 +58,4 @@ pip install -r requirements.txt
   * AWS
     * Lambda
     * Cloudwatch (for daily run)
+
